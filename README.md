@@ -1,7 +1,7 @@
 flask-login-oauth2
 ==================
 
-flask-login-oauth2 and google oauth2 library
+flask-login-oauth2 and google oauth2 library for authenticating new users and maintaining session
 
 Flask-Login Reference
 ---------------------
