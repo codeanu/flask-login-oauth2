@@ -16,9 +16,9 @@ import requests
 """
     Imports End 
 """
-app = Flask("Server")
-__CLIENT_ID__ = ""
-__CLIENT_SECRET__ = ""
+app = Flask(__name__)
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 
 """ 
 User Session management Class
@@ -94,8 +94,8 @@ def oauth2callback():
     if request.method == "GET":
         authorizationcode = request.args.get('code', '')
         useremail = request.args.get('state', '') 
-        response = AuthorizeTokens(__CLIENT_ID__, 
-                                   __CLIENT_SECRET__, 
+        response = AuthorizeTokens(CLIENT_ID, 
+                                   CLIENT_SECRET, 
                                    authorizationcode) 
         accesstoken = response["access_token"]
         r = requests.get('https://www.googleapis.com/oauth2/v1/userinfo?access_token=' + accesstoken)
