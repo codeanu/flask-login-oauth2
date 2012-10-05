@@ -30,6 +30,10 @@ To Get Access to the User Profile
 
 Read More About Scopes here at https://developers.google.com/gdata/faq#AuthScopes
 
+It also saves the accesstoken which can be used to get userinfo
+
+GET https://www.googleapis.com/oauth2/v1/userinfo?access_token={accessToken}
+
 To Logout
 http://127.0.0.1:5000/logout
 
