@@ -18,9 +18,15 @@ run the server
 Register a new user also login in if the user exists
 http://127.0.0.1:5000/login?email=anurag@grexit.com
 
-It uses the following scopes
-https://mail.google.com/                            Get all Access to the Gmail Imap server of the user 
-https://www.googleapis.com/auth/userinfo.profile    Get Access to the User Profile 
+It uses the following scopes:
+
+    https://mail.google.com/
+
+To Get all Access to the Gmail Imap server of the user 
+
+    https://www.googleapis.com/auth/userinfo.profile    
+    
+To Get Access to the User Profile 
 
 Read More About Scopes here at https://developers.google.com/gdata/faq#AuthScopes
 
