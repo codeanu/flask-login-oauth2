@@ -1,5 +1,5 @@
-Flask-Login and Google Oauth2 
-=============================
+Flask-Login-Oauth2 
+==================
 
 flask-login-oauth2 and google oauth2 library for authenticating new users and maintaining session 
 
