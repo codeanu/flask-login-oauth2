@@ -11,6 +11,7 @@ and register these values:
     REDIRECT_URI             in modules/oauth2.py
 
 run the server 
+
     $python server.py
     Running on http://127.0.0.1:5000/
 
