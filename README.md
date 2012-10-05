@@ -15,7 +15,7 @@ run the server
     $python server.py
     Running on http://127.0.0.1:5000/
 
-Register a new user also loggin in if the user exists
+Register a new user also login in if the user exists
 http://127.0.0.1:5000/login?email=anurag@grexit.com
 
 It uses the following scopes
