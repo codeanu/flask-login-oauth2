@@ -121,7 +121,7 @@ GOOGLE_ACCOUNTS_BASE_URL = 'https://accounts.google.com'
 
 
 # Hardcoded dummy redirect URI for non-web apps.
-REDIRECT_URI = 'http://www.inboxwhiz.com:5002/oauth2callback'
+REDIRECT_URI = 'REDIRECTURI FOR YOUR APP'
 
 
 def AccountsUrl(command):
